@@ -1,0 +1,20 @@
+blockquote {
+    background: #f9f9f9;
+    margin: 1.5em 10px;
+    padding: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    &:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: .1em;
+        margin-right: .25em;
+        vertical-align: -.4em;
+        content: "\201C";
+    }
+    span {
+        font-family: "Open Sans", Arial;
+        display: block;
+        margin-top: 10px;
+    }
+}

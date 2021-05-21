@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,IAAI;CAIxB;;AAND,AAGI,CAHH,AAGI,MAAM,CAAC;EACJ,KAAK,EAAE,OAAO;CACjB;;AAGL,AAEQ,MAFF,CACF,CAAC,AACI,MAAM,CAAC;EACJ,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "../scss/partials/links.scss"
+    ],
+    "names": [],
+    "file": "links.css"
+}

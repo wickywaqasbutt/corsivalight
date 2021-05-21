@@ -1,0 +1,15 @@
+a {
+    color: #EDB83A;
+    text-decoration: none;
+    &:hover {
+        color: #655233;
+    }
+}
+
+footer {
+    a {
+        &:hover {
+            color: #fff;
+        }
+    }
+}

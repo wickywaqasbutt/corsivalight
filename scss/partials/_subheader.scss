@@ -1,0 +1,25 @@
+#subheader {
+    padding: 120px 0;
+    background: url(../img/bg/bg-1.jpg) top center no-repeat;
+    text-align: center;
+    text-transform: uppercase;
+    h1 {
+        font-family: 'Cinzel';
+        letter-spacing: 10px;
+        font-size: 64px;
+        font-weight: 400;
+        color: #fff;
+    }
+    h3 {
+        font-family: 'Cinzel';
+        color: #edb83a;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-weight: 400;
+    }
+    span {
+        display: inline-block;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+}

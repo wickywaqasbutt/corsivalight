@@ -1,0 +1,52 @@
+.client-quotes {
+    font-family: "Merriweather";
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    max-width: 700px;
+    .text {
+        color: #fff;
+        font-size: 18px;
+        line-height: 1.8em;
+        margin-bottom: 20px;
+        padding-left: 60px;
+        font-style: italic;
+    }
+    i {
+        margin: 20px 0;
+        color: #edb83a;
+        width: 100%;
+    }
+    .name {
+        font-weight: 700;
+        color: #edb83a;
+        padding-left: 60px;
+    }
+    .company {
+        margin-bottom: 20px;
+        color: #edb83a;
+    }
+    li {
+        margin: 0 !important;
+        padding: 0 !important;
+        &:before {
+            font-family: "FontAwesome";
+            content: "\f10d";
+            font-size: 32px;
+            color: #edb83a;
+            font-weight: 400;
+            position: absolute;
+            margin-top: 10px;
+        }
+        img {
+            background: #fff;
+            padding: 3px;
+            margin-bottom: 20px;
+            width: 100px;
+            height: 100px;
+        }
+    }
+    span {
+        padding-right: 10px;
+    }
+}

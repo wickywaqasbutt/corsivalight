@@ -1,0 +1,53 @@
+#booking {
+    padding: 30px 0;
+    background: #655233;
+    input {
+        width: 100%;
+        color: #fff;
+        border: solid 1px #EDB83A;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        background: url(../img/icon-calendar.html) 10px center no-repeat;
+        padding-left: 36px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    button {
+        width: 100%;
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        background: #EDB83A;
+    }
+    select {
+        width: 100%;
+        color: #fff;
+        background: none;
+        border: solid 1px #EDB83A;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+}
+
+.booking_form_holder {
+    .form-control {
+        margin-bottom: 20px;
+    }
+}
+
+input.error_input {
+    border-bottom-color: #C03;
+}
+
+textarea.error_input {
+    border-color: #C03;
+}
+
+select.error_input {
+    border-color: #C03;
+}

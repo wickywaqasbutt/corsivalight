@@ -1,0 +1,26 @@
+footer {
+    color: #888;
+    background: #111;
+    padding: 80px 0 30px;
+    ul {
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+    li {
+        display: inline;
+        padding: 0 10px 0 0;
+    }
+    a {
+        color: #fff;
+    }
+    h3 {
+        color: #edb83a;
+        margin-bottom: 30px;
+    }
+}
+
+.subfooter {
+    padding-top: 30px;
+    margin-top: 20px;
+}

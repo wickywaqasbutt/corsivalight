@@ -1,0 +1,113 @@
+.featured-box {
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: solid 1px #ddd;
+    h3 {
+        margin-bottom: 10px;
+    }
+    i {
+        color: #888;
+        position: absolute;
+    }
+    .text {
+        padding-left: 70px;
+    }
+}
+
+.featured-box-pic {
+    img {
+        margin: 0 0 20px;
+    }
+    .inner {
+        h4 {
+            margin-top: 0;
+            font-size: 22px;
+        }
+    }
+    .text {
+        margin-bottom: 20px;
+    }
+    .btn-custom {
+        background: #EDB83A;
+        color: #fff;
+        padding: 5px 20px;
+    }
+}
+
+.info-box {
+    font-size: 14px;
+    position: absolute;
+    z-index: 100;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 4px;
+    &:hover {
+        color: #fff;
+        background: #EDB83A;
+        text-decoration: none;
+    }
+    .book {
+        color: #fff;
+        background: #e08e79;
+        padding: 5px 15px;
+    }
+    .price {
+        color: #fff;
+        background: #EDB83A;
+        padding: 5px 15px;
+    }
+}
+
+.icon-box {
+    min-height: 120px;
+    margin-bottom: 30px;
+    i {
+        position: absolute;
+        color: #fff;
+        font-size: 40px;
+        padding: 40px 0;
+        text-align: center;
+        width: 80px;
+        background: #404040;
+    }
+    &:hover {
+        i {
+            color: #EDB83A;
+            background: #f2f2f2;
+        }
+    }
+    .text {
+        padding-left: 110px;
+    }
+}
+
+.icon-box {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    i {
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    &:hover {
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+        i {
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+    }
+}
